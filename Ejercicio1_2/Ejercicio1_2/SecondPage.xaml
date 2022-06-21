@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_2.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre" FontAttributes="Bold" FontSize="Title" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding nombre}" FontSize="24" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Label Text="Apellido" FontAttributes="Bold" FontSize="Title" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding apellido}" FontSize="24" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Label Text="Edad" FontAttributes="Bold" FontSize="Title" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding edad}" FontSize="24" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <Label Text="Correo" FontAttributes="Bold" FontSize="Title" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Label Text="{Binding correo}" FontSize="24" TextColor="Black" Padding="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
